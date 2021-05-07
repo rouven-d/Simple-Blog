@@ -12,7 +12,7 @@
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #2A2829 !important;
 }
 
 .footer-padding {
@@ -25,7 +25,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color: #2A2829;
 }
 
 .footer p {
@@ -40,4 +40,15 @@
 
 .form-label {
   margin-top: 15px;
+}
+
+.about-me-row{
+  margin-top: 4%;
+}
+
+.profile-photo{
+  width: 275px;
+  height: 275px;
+  border-radius: 100%;
+  margin: auto;
 }

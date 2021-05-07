@@ -1,6 +1,6 @@
 <%- include("partials/header") -%>
 
-<h1>Hello</h1>
+<h1>Hi, there!</h1>
 <p><%= homeStartingContentEjs%></p>
 
 
@@ -8,7 +8,7 @@
 <h1><%=post.title %></h1>
 <p>
   <%= post.content.substring(0, 100) + "..." %>
-  <a href="/posts/<%=post.title%>">Read more</a>
+  <a href="/posts/<%=post._id%>">Read more</a>
 </p>
 
 
